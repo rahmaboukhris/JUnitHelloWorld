@@ -23,6 +23,7 @@ class PayFeesForm extends Form
                 ->notEmpty('payment.payment_made_by');
                 ->notEmpty('payment.payment_made_by');
                 ->notEmpty('payment.payment_made_by');
+                ->notEmpty('payment.payment_made_by');
         
     }
 }
